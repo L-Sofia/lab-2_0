@@ -1,0 +1,29 @@
+// Lab_02.cpp
+// < Любіжанін Софія >
+// Лабораторна робота 2_1.
+// Лінійні програми.
+// Варіант 13
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	int a;
+	int b;
+	int z1;
+	int z2;
+
+	cout << "a = "; cin >> a;
+	cout << "b = "; cin >> b;
+	z1 = (sin(a) + cos(2 * b - a)) / (cos(a) - sin(2 * b - a));
+	z2 = (1 + sin(2 * b)) / (cos(2 * b));
+
+	cout << endl;
+	cout << "z1 = " << z1 << endl;
+	cout << "z2 = " << z2 << endl;
+
+	cin.get();
+	return 0;
+}
